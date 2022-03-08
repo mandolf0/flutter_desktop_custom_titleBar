@@ -1,16 +1,15 @@
-# windows_app
+## Dsktop and mobile app wrapper
 
-A new Flutter project.
+#### This builds on the bitsdojo_window Flutter package
 
-## Getting Started
+Windows adaptive frame with custom title bar and action icons, and a status bar.![984aaf62d9714ba4a56842d8d921c19f](https://user-images.githubusercontent.com/78055406/157163300-ce214b9f-da64-4486-a916-2148ca4dd361.png)
 
-This project is a starting point for a Flutter application.
+ #### Mobile
+ ![1e5235cb06424aaba913ff160ecb011e](https://user-images.githubusercontent.com/78055406/157163585-d965c680-6628-4d5b-8fc9-f9ad8c37902d.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+**Drawer**
+![4c9e90f8af5b4fc6b5d024bf55789c60](https://user-images.githubusercontent.com/78055406/157163600-450ec83a-95e6-43e5-9c03-75d665346bb6.png)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Toast anyone?
+![6361fd5f699e4e2e899cb209f4535e20](https://user-images.githubusercontent.com/78055406/157163620-c26ead8d-00a4-4992-bc20-b9d03297fbe0.png)
