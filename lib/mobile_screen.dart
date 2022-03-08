@@ -24,9 +24,11 @@ class MobileScreen extends StatelessWidget {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
+        currentIndex: 0,
         backgroundColor: Color(0xff73a1d0),
         onTap: (value) => print(value),
         unselectedItemColor: Colors.white,
+        selectedItemColor: Colors.black,
         items: [
           BottomNavigationBarItem(
               icon: Icon(

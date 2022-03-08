@@ -40,10 +40,13 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Platform.isWindows ? DesktopScreen() : MobileScreen(),
       theme: ThemeData(
+        appBarTheme: AppBarTheme(backgroundColor: Color(0xff3c3c3c)),
         primaryColor: Colors.green,
         textTheme: TextTheme(
             caption: TextStyle(
-                color: Colors.white, fontFamily: 'opensans', fontSize: 12)),
+                color: Colors.white, fontFamily: 'opensans', fontSize: 12),
+            bodyText1: TextStyle(
+                color: Colors.black, fontFamily: 'opensans', fontSize: 12)),
       ),
     );
   }
